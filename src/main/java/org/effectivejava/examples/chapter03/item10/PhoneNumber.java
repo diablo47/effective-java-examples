@@ -30,8 +30,7 @@ public final class PhoneNumber {
 		if (!(o instanceof PhoneNumber))
 			return false;
 		PhoneNumber pn = (PhoneNumber) o;
-		return pn.lineNumber == lineNumber && pn.prefix == prefix
-				&& pn.areaCode == areaCode;
+		return pn.lineNumber == lineNumber && pn.prefix == prefix && pn.areaCode == areaCode;
 	}
 
 	@Override
