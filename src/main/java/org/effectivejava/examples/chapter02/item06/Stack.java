@@ -6,6 +6,7 @@ import java.util.Arrays;
 public class Stack {
 	private Object[] elements;
 	private int size = 0;
+	int wokao = 1;
 	private static final int DEFAULT_INITIAL_CAPACITY = 16;
 
 	public Stack() {
